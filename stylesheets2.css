@@ -1,0 +1,141 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgba(0,128,128,0.5);
+    padding:28px;
+}
+
+
+
+.text-center{
+    text-align: center;
+    font-display: block;
+}
+
+.text-center h1{
+    text-decoration: none;
+}
+
+p.text-center {
+    font-family: cursive;
+}
+
+
+.Nailart{
+    display: inline-grid;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.4);
+    padding:10px;
+    margin-top: 30px;
+    background-color: rgba(255,255,255, 0.5);
+    border-radius: 40px;
+        
+}
+
+
+
+
+.Nailart img{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: -2px;
+    width: 90%;
+    border-radius: 190px;
+    height: 290px;
+    transition: 1s;
+}
+
+.n1{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.Nailart span{
+    float:right;
+    font-size: 14px;
+    color:rgba(0,128,128,0.9);
+}
+
+.nail-text{
+        text-align: justify;
+    padding-top: -20px;
+    font-size: 14.5px;
+    font-family:cursive;
+}
+.Nailart h2{
+    text-align: center;
+}
+
+.Nailart h2 a:default{
+    text-align: center;
+    color: darkgreen;
+}
+
+
+.Nailart h2 a:hover{
+    text-align: center;
+    color: darkseagreen;
+}
+
+
+.Nailart h2 a{
+    margin-top: 5px;
+    font-size: 29px;
+    color : darkgreen;
+    text-decoration: none;
+    text-align: center;
+}
+    
+.See-More-btn {
+    background-image: linear-gradient(to right, rgba(0,128,128,0.5), rgba(0,128,128,0.8));
+    
+    padding: 5px 12px 8px;
+    border-radius:20px;
+    line-height:20px;
+    font-size:14px;
+    color:#fff;
+    border:none;
+    text-decoration: none;
+}
+
+.See-More-btn:hover {
+    background-image: linear-gradient(to right, rgba(0,128,128,0.8), rgba(0,128,128,0.3));
+    
+    padding: 5px 16px 8px;
+    border-radius:20px;
+    line-height:20px;
+    font-size:14px;
+    color:black;
+    border:none;
+    text-decoration: none;
+}
+
+.rows{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 0 60px;
+    grid-template-rows: auto;
+}
+.thumbnail:default{
+    position: relative;
+    top: -25px;
+    
+    width:300px;
+    height:auto;
+    display: block;
+    z-index:999;
+}
+.thumbnail:hover{
+    position: relative;
+    top: -25px;
+    
+    width:300px;
+    height:auto;
+    display: block;
+    z-index:999;
+}
+
+
+
+    
+
